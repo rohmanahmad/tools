@@ -1,0 +1,25 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "description": "all tools which i needed",
+  "main": "quran-crawler.js",
+  "dependencies": {
+    "mongoose": "^5.9.18",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohmanahmad/tools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohmanahmad/tools/issues"
+  },
+  "homepage": "https://github.com/rohmanahmad/tools#readme"
+}
