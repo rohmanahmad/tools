@@ -3,6 +3,8 @@
 const mongoose = require('mongoose')
 
 const schema = mongoose.Schema({
+    "createdAt": Date,
+    "updatedAt": Date,
     "idRevelationType": String,
     "idNameTranslation": String,
     "number": Number,
@@ -11,6 +13,7 @@ const schema = mongoose.Schema({
     "englishNameTranslation": String,
     "revelationType": String,
     "numberOfAyahs": Number,
+    "audios": {},
     "ayah": {}
 })
 
